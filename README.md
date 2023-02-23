@@ -1,0 +1,6 @@
+## SCOTT 계정 활성화
+SQLPLUS SYS/[비밀번호] AS SYSDBA 
+ALTER USER SCOTT IDENTIFIED BY TIGER ACCOUNT UNLOCK;
+@C:\oraclexe\app\oracle\product\11.2.0\server\rdbms\admin\scott.sql
+SHOW USER;
+ALTER USER SCOTT IDENTIFIED BY TIGER;
