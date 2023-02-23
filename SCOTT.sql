@@ -99,3 +99,4 @@ SELECT LENGTH('오라클'), LENGTHB('오라클 SQL') FROM DUAL;
 -- 글자 잘라내기
 SELECT JOB, SUBSTR(JOB, 1, 2) FROM EMP;
 
+
